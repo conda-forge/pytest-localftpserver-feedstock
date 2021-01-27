@@ -5,9 +5,13 @@ Home: https://github.com/oz123/pytest-localftpserver
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-localftpserver-feedstock/blob/master/LICENSE.txt)
 
 Summary: A PyTest plugin which provides an FTP fixture for your tests
+
+Development: https://github.com/oz123/pytest-localftpserver
+
+Documentation: https://pytest-localftpserver.readthedocs.io/en/latest/index.html
 
 This Plugin provides the fixtures ftpserver and ftpserver_TLS, which are
 threaded instances of a FTP server, with which you can upload files and
