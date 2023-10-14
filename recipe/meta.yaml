@@ -1,5 +1,5 @@
 {% set name = "pytest-localftpserver" %}
-{% set version = "1.1.4" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name|replace("-", "_") }}-{{ version }}.tar.gz
-  sha256: acc181bfafc1f64befda90bc3bf2fbcd7886165a57921f57c21199a13aeffca7
+  sha256: 099512c3d8a1ca24808df31d85b426d8653ca6f178d6d8f3c1898d302c053b3e
 
 build:
   noarch: python
